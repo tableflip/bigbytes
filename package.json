@@ -1,6 +1,6 @@
 {
   "name": "bigbytes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "bytes formatting/parsing for big.js numbers",
   "main": "index.js",
   "scripts": {
