@@ -56,7 +56,7 @@ function bytes (value, options) {
   }
 
   if (typeof value === 'number' && Number.isFinite(value)) {
-    return format(Big(value))
+    return format(Big(value), options)
   }
 
   if (typeof value === 'string') {
