@@ -18,7 +18,7 @@ npm install bigbytes
 var bytes = require('bigbytes')
 ```
 
-#### bytes.format(number value, [options]): string｜null
+### `bytes.format(Big value, [options]): string｜null`
 
 Format the given value in bytes into a string. If the value is negative, it is kept as such. If it is a float, it is
  rounded.
@@ -68,7 +68,7 @@ bytes(Big(1024), {unitSeparator: ' '})
 // output: '1 KB'
 ```
 
-#### bytes.parse(string｜number value): Big｜null
+### `bytes.parse(string｜number value): Big｜null`
 
 Parse the string value into an integer in bytes. If no unit is given, or `value`
 is a number, it is assumed the value is in bytes.
